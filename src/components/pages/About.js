@@ -4,15 +4,14 @@ import Background from "../../../src/puppy.jpeg"
 function About() {
   return (
     <div>
-      <div className="jumbotron jumbotron-fluid" style={{background: `url(${Background})`, backgroundImagePosition: "right bottom"}}
+      <div className="jumbotron jumbotron-fluid" style={{background: `url(${Background})`, height: "300px"}}
 >
   <div className="container" >
-    <h1 className="display-4">Fluid jumbotron</h1>
+    <h1 className="display-4">About Pupster</h1>
     
   </div>
 </div>
-<h1>About Page</h1>
-      <p>
+      <p style={{ width: "80%", margin: "0 auto"}}>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
         Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
         pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
